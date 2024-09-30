@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Character } from '../src/app/dbz/interfaces/character.interface';
-import { DbzService } from '../src/app/dbz/services/dbz.service';
+import { DbzService } from '../services/dbz.service';
+import { Character } from '../interfaces/character.interface';
 
 @Component({
   selector: 'app-dbz-main-page',
